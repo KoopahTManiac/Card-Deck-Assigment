@@ -22,6 +22,7 @@ namespace card_deck_Assigment
             InitializeComponent();
         }
 
+        //init the Image holder to display the current card that is drawn
         private void init()
         {
             currentCard.Size = new Size(145, 200);
@@ -30,6 +31,7 @@ namespace card_deck_Assigment
             this.Controls.Add(currentCard);
         }
 
+        //Grab a card from the deck and display it
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             if(mDeck.GetNrOfCards() >0)
@@ -44,6 +46,7 @@ namespace card_deck_Assigment
             
         }
 
+        //display the card
         private void displayCard(Card mCard)
         {
             Image myImage = (Image)Resources.ResourceManager.GetObject(mCard.mImage);
@@ -54,18 +57,19 @@ namespace card_deck_Assigment
         {
 
         }
-
+        //A new Deck
         private void newDeckToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.mDeck = new Deck();
             cardDeck.Visible = true;
         }
 
+        //Shuffle the deck
         private void shuffleDeckToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.mDeck.Shuffle();
         }
-
+        //Sort the deck
         private void sortDeckToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.mDeck.Sort();

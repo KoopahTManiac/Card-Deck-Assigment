@@ -5,9 +5,13 @@ using System.Text;
 
 namespace card_deck_assignment.Cards
 {
+    //Card Colors
     public enum CColor { Red, Black }
+
+    //Card Types
     public enum CType { Heart, Diamond, Clover, Spade }
 
+    //Card Values
     public enum CValue { Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten ,Jack ,Queen, King }
     public class Card : IComparable<Card>
     {

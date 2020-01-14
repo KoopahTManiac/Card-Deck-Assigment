@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.cardDeck = new System.Windows.Forms.PictureBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shuffleDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sortDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cardDeck)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -51,11 +50,6 @@
             this.cardDeck.TabIndex = 0;
             this.cardDeck.TabStop = false;
             this.cardDeck.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // menuStrip1
             // 
@@ -80,23 +74,32 @@
             // newDeckToolStripMenuItem
             // 
             this.newDeckToolStripMenuItem.Name = "newDeckToolStripMenuItem";
-            this.newDeckToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.newDeckToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newDeckToolStripMenuItem.Text = "New Deck";
             this.newDeckToolStripMenuItem.Click += new System.EventHandler(this.newDeckToolStripMenuItem_Click);
             // 
             // shuffleDeckToolStripMenuItem
             // 
             this.shuffleDeckToolStripMenuItem.Name = "shuffleDeckToolStripMenuItem";
-            this.shuffleDeckToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.shuffleDeckToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.shuffleDeckToolStripMenuItem.Text = "Shuffle Deck";
             this.shuffleDeckToolStripMenuItem.Click += new System.EventHandler(this.shuffleDeckToolStripMenuItem_Click);
             // 
             // sortDeckToolStripMenuItem
             // 
             this.sortDeckToolStripMenuItem.Name = "sortDeckToolStripMenuItem";
-            this.sortDeckToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.sortDeckToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sortDeckToolStripMenuItem.Text = "Sort Deck";
             this.sortDeckToolStripMenuItem.Click += new System.EventHandler(this.sortDeckToolStripMenuItem_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(408, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Click Bellow to Grab Card";
             // 
             // Form1
             // 
@@ -104,6 +107,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(570, 279);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.cardDeck);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
@@ -122,12 +126,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox cardDeck;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newDeckToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem shuffleDeckToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sortDeckToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 

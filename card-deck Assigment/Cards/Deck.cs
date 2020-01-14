@@ -34,6 +34,7 @@ namespace card_deck_assignment.Cards
             throw new Exception("No Cards Are left");
         }
 
+        //Get the bottom card and then remove it from the list
         public Card DrawBottomCard()
         {
             if (mCards.Count > 0)
@@ -45,7 +46,7 @@ namespace card_deck_assignment.Cards
             throw new Exception("No Cards Are left");
         }
 
-        //Sort the Deck by the defined patern in the Card Class
+        //Sort the Deck by the CompareTo method in the Card Class
         public void Sort()
         {
             mCards.Sort();
