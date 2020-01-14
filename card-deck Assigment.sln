@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "card-deck Assigment", "card-deck Assigment\card-deck Assigment.csproj", "{C6BC05C4-7770-487A-B16A-2D3A7E9BBAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameTest", "CardGameTest\CardGameTest.csproj", "{DC33E9CC-6189-4A2B-A716-91D25BDA626A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6BC05C4-7770-487A-B16A-2D3A7E9BBAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BC05C4-7770-487A-B16A-2D3A7E9BBAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BC05C4-7770-487A-B16A-2D3A7E9BBAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BC05C4-7770-487A-B16A-2D3A7E9BBAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC33E9CC-6189-4A2B-A716-91D25BDA626A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC33E9CC-6189-4A2B-A716-91D25BDA626A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC33E9CC-6189-4A2B-A716-91D25BDA626A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC33E9CC-6189-4A2B-A716-91D25BDA626A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7244215A-E053-4811-A708-12167BE949C4}
+	EndGlobalSection
+EndGlobal

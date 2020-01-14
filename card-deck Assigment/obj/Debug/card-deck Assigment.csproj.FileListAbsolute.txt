@@ -1,0 +1,8 @@
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\obj\Debug\card_deck_Assigment.Form1.resources
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\obj\Debug\card_deck_Assigment.Properties.Resources.resources
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\obj\Debug\card-deck Assigment.csproj.GenerateResource.cache
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\bin\Debug\card-deck Assigment.exe.config
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\bin\Debug\card-deck Assigment.exe
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\bin\Debug\card-deck Assigment.pdb
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\obj\Debug\card-deck Assigment.exe
+C:\Users\bata_\source\repos\card-deck Assigment\card-deck Assigment\obj\Debug\card-deck Assigment.pdb

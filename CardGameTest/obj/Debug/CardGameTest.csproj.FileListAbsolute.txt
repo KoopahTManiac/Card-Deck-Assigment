@@ -1,0 +1,16 @@
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\CardGameTest.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\CardGameTest.pdb
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\card-deck Assigment.exe
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\card-deck Assigment.pdb
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\card-deck Assigment.exe.config
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\obj\Debug\CardGameTest.csprojAssemblyReference.cache
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\obj\Debug\CardGameTest.csproj.CopyComplete
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\obj\Debug\CardGameTest.dll
+C:\Users\bata_\source\repos\card-deck Assigment\CardGameTest\obj\Debug\CardGameTest.pdb
