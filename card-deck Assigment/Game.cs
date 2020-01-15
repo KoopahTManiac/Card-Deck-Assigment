@@ -31,15 +31,19 @@ namespace card_deck_Assigment
 
         }
 
+        //Runs main Game Logic
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             if (mDeck.GetNrOfCards() > 0 && mPcDeck.GetNrOfCards() >0)
             {
+                //draw a card from each deck
                 Card mCard = mDeck.DrawTopCard();
                 Card mPcCard = mPcDeck.DrawTopCard();
+                //Display the cards
                 displayCard(mCard);
                 displayPcCard(mPcCard);
 
+                //if player has highest card then add the cards to players deck
                 if(mCard.mValue > mPcCard.mValue)
                 {
                     mDeck.AddCard(mCard);
@@ -51,6 +55,7 @@ namespace card_deck_Assigment
                     WinnerName.Text = "Player Gets Cards";
                     WinnerName.Visible = true;
                 }
+                //if pc has highest card then add the cards to the pc deck
                 else if (mCard.mValue < mPcCard.mValue)
                 {
                     mPcDeck.AddCard(mCard);
@@ -61,6 +66,7 @@ namespace card_deck_Assigment
                     WinnerName.Text = "PC Gets Cards";
                     WinnerName.Visible = true;
                 }
+                //draw so discard booth of the cards
                 else
                 {
                     WinnerName.Text = "Draw";
@@ -72,17 +78,18 @@ namespace card_deck_Assigment
             }
             else
             {
-                cardDeck.Visible = false;
+                //we have a winner so show the winner
                 DisplayWinnerScreen();
             }
         }
 
+        //update the displayed card for user
         private void displayCard(Card mCard)
         {
             Image myImage = (Image)Resources.ResourceManager.GetObject(mCard.mImage);
             playerCardC.Image = myImage;
         }
-
+        //update the displayed card for PC
         private void displayPcCard(Card mCard)
         {
             Image myImage = (Image)Resources.ResourceManager.GetObject(mCard.mImage);
@@ -90,16 +97,17 @@ namespace card_deck_Assigment
         }
 
 
-
+        //display who won the game
         private void DisplayWinnerScreen()
         {
+            //if player has less cards then pc, then player wins
             if(mDeck.GetNrOfCards() < mPcDeck.GetNrOfCards())
             {
                 WinnerName.Text = "Player Wins";
                 WinnerName.Visible = true;
                 WinnerLBL.Visible = true;
             }
-            else
+            else //if player has more cards or if draw then pc wins
             {
                 WinnerName.Text = "PC Wins";
                 WinnerName.Visible = true;

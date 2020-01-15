@@ -34,8 +34,8 @@
             this.newDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shuffleDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sortDeckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.playAGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cardDeck)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -94,6 +95,13 @@
             this.sortDeckToolStripMenuItem.Text = "Sort Deck";
             this.sortDeckToolStripMenuItem.Click += new System.EventHandler(this.sortDeckToolStripMenuItem_Click);
             // 
+            // playAGameToolStripMenuItem
+            // 
+            this.playAGameToolStripMenuItem.Name = "playAGameToolStripMenuItem";
+            this.playAGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.playAGameToolStripMenuItem.Text = "Play A Game";
+            this.playAGameToolStripMenuItem.Click += new System.EventHandler(this.playAGameToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -102,13 +110,6 @@
             this.label1.Size = new System.Drawing.Size(127, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Click Bellow to Grab Card";
-            // 
-            // playAGameToolStripMenuItem
-            // 
-            this.playAGameToolStripMenuItem.Name = "playAGameToolStripMenuItem";
-            this.playAGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.playAGameToolStripMenuItem.Text = "Play A Game";
-            this.playAGameToolStripMenuItem.Click += new System.EventHandler(this.playAGameToolStripMenuItem_Click);
             // 
             // CardDeckMain
             // 

@@ -37,7 +37,7 @@
             this.PcCardC = new System.Windows.Forms.PictureBox();
             this.playerCardC = new System.Windows.Forms.PictureBox();
             this.cardDeck = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.cardDeckUser = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -47,7 +47,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PcCardC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCardC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardDeck)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardDeckUser)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -133,17 +133,17 @@
             this.cardDeck.TabIndex = 9;
             this.cardDeck.TabStop = false;
             // 
-            // pictureBox4
+            // cardDeckUser
             // 
-            this.pictureBox4.AccessibleName = "CardDeck";
-            this.pictureBox4.Image = global::card_deck_Assigment.Properties.Resources.back;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 81);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(145, 200);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 10;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.cardDeckUser.AccessibleName = "CardDeck";
+            this.cardDeckUser.Image = global::card_deck_Assigment.Properties.Resources.back;
+            this.cardDeckUser.Location = new System.Drawing.Point(12, 81);
+            this.cardDeckUser.Name = "cardDeckUser";
+            this.cardDeckUser.Size = new System.Drawing.Size(145, 200);
+            this.cardDeckUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.cardDeckUser.TabIndex = 10;
+            this.cardDeckUser.TabStop = false;
+            this.cardDeckUser.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label5
             // 
@@ -217,7 +217,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.cardDeckUser);
             this.Controls.Add(this.cardDeck);
             this.Controls.Add(this.NrCardsPC);
             this.Controls.Add(this.NrCardsYou);
@@ -233,7 +233,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PcCardC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCardC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardDeck)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardDeckUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,7 +250,7 @@
         private System.Windows.Forms.Label NrCardsYou;
         private System.Windows.Forms.Label NrCardsPC;
         private System.Windows.Forms.PictureBox cardDeck;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox cardDeckUser;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
