@@ -1,6 +1,5 @@
+using card_deck_Assigment.Cards;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using card_deck_assignment;
-using card_deck_assignment.Cards;
 using System;
 using System.Diagnostics;
 

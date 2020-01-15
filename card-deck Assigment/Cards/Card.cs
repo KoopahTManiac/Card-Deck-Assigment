@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace card_deck_assignment.Cards
+namespace card_deck_Assigment.Cards
 {
     //Card Colors
     public enum CColor { Red, Black }

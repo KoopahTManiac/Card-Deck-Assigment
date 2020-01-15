@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace card_deck_assignment.Cards
+namespace card_deck_Assigment.Cards
 {
     public class Deck
     {
@@ -57,7 +57,25 @@ namespace card_deck_assignment.Cards
             Random random = new Random();
             //Shuffle a card randomly from all the cards into n spot from last to Secound Card since first card will be swaped by secound
             //then decrease the randome limit by one for each loop
-            for(int n= mCards.Count; n > 1; n--)
+            
+            for(int n= mCards.Count-1; n > 1; n--)
+            {
+                int k = random.Next(n+1);
+                //store the card for swaping temporarly
+                Card card = mCards[k];
+                mCards[k] = mCards[n];
+                //now assign it to the n spot
+                mCards[n] = card;
+            }
+        }
+
+        public void Shuffle(Random seed)
+        {
+            Random random = seed;
+            //Shuffle a card randomly from all the cards into n spot from last to Secound Card since first card will be swaped by secound
+            //then decrease the randome limit by one for each loop
+
+            for (int n = mCards.Count - 1; n > 1; n--)
             {
                 int k = random.Next(n + 1);
                 //store the card for swaping temporarly
@@ -84,5 +102,11 @@ namespace card_deck_assignment.Cards
         {
             return mCards.Count;
         }
+
+        public void AddCard(Card card)
+        {
+            mCards.Add(card);
+        }
+
     }
 }
